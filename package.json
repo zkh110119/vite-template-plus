@@ -29,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unknown-zero/vite-template-plus.git"
+    "url": "https://github.com/zkh110119/vite-template-plus.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/zkh110119/vite-template-plus",
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",
     "@vueuse/core": "^14.1.0",
