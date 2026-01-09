@@ -31,8 +31,7 @@ watch(
 const beforeChange = () => {
   return new Promise<boolean>((resolve) => {
     const isAppearanceTransition =
-      // @ts-expect-error
-      document.startViewTransition &&
+      typeof document.startViewTransition === 'function' &&
       !window.matchMedia('(prefers-reduced-motion: reduce)').matches
     if (!isAppearanceTransition) {
       resolve(true)
