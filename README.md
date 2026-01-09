@@ -1,6 +1,7 @@
 # vite-template-plus
 
 ## Technology stack
+
 > - Vue 3
 > - Vue Router
 > - Pinia
@@ -9,10 +10,11 @@
 > - TypeScript
 
 ## Build Tool
+
 > - Vite
 
-
 ## Usage
+
 ```shell
 # development mode
 npm run dev
@@ -25,6 +27,7 @@ npm run preview
 ```
 
 ## Prepare
+
 ```shell
 npm install
 ```
