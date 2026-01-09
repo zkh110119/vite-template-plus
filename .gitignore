@@ -26,4 +26,4 @@ dist-ssr
 
 # auto-generated config file
 types
-.eslintrc-auto-import.json
+eslintrc-auto-import.js

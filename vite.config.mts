@@ -52,6 +52,7 @@ export default defineConfig(({ mode }) => {
       AutoImport({
         eslintrc: {
           enabled: true,
+          filepath: './eslintrc-auto-import.js',
         },
         // Options for scanning directories for auto import
         dirsScanOptions: {
