@@ -9,9 +9,9 @@ export default {
   customSyntax: 'postcss-html',
   overrides: [
     {
-      files: ['*.vue', '**/*.vue'],
+      files: ['*.vue', '**/*.vue', '*.scss', '**/*.scss'],
       rules: {
-        'unit-allowed-list': ['em', 'rem', 's'],
+        'unit-allowed-list': ['px', 'em', 'rem', 's', 'ms'],
       },
     },
   ],
