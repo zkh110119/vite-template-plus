@@ -8,6 +8,9 @@ import autoImportsEslint from './eslintrc-auto-import.js'
 
 export default defineConfig([
   {
+    ignores: ['node_modules/', 'dist/'],
+  },
+  {
     files: ['**/*.{js,mjs,cjs,ts,mts,cts,vue}'],
     plugins: { js },
     extends: ['js/recommended'],
